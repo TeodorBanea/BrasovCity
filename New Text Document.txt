@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Brasov Veterans</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="principala.html">Brasov<span class="logo_colour"> Veterans</span></a></h1>
+          <h2>Locations. Restaurants. Accomodations.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          
+          <li><a href="principala.html">Home</a></li>
+          <li><a href="locatii.html">Locations</a></li>
+          <li class="selected"><a href="restaurante.html">Restaurants</a></li>
+          <li><a href="accomodari.html">Accomodations</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+	  <li><a href="log.html">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+<div id="footer">
+      Copyright &copy; Ramy Sanjaqieh|Teodor banea|Tudor stefancu|
+    </div>
+  </div>
+</body>
+</html>

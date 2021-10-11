@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Brasov</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+
+  <script type="text/javascript">
+  function showDate() {
+    var d = new Date();
+    var curr_date = d.getDate();
+    var curr_month = d.getMonth() + 1; //months are zero based
+    var curr_year = d.getFullYear();
+    document.write(curr_date + "-" + curr_month + "-" + curr_year);
+  }
+</script>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/openWeather.js"></script>
+	
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="principala.html">Brasov<span class="logo_colour"> Veterans</span></a></h1>
+          <h2>Locations. Restaurants. Accomodations.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          
+          <li class="selected"><a href="principala.html">Home</a></li>
+          <li><a href="locatii.html">Locations</a></li>
+          <li><a href="restaurante.html">Restaurants</a></li>
+          <li><a href="accomodari.html">Accomodations</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <h3>Latest News</h3>
+        <h4>Website is on!!!</h4>
+<br>
+        <h5>June 1st, 2017</h5>
+        <p>Where you can go on the 1st of June.<br /><a href="#">Read more</a></p>
+        <p></p>
+        <h4>Another fantastic news</h4>
+        <h5>July 1st, 2050</h5>
+        <p>Facts about Brasov.<br /><a href="#">Read more</a></p>
+        
+        <h3>Search</h3>
+		   
+		
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
+        </form>
+		 <div class="weather-wrapper hide">
+			  <img src="" class="weather-icon" alt="Weather Icon" />
+			  <p><strong>Place</strong>
+			  <span class="weather-place"></span></p>
+			  <p><strong>Temperature</strong>
+			  <span class="weather-temperature"></span> (<span class="weather-min-temperature"></span> - <span class="weather-max-temperature"></span>)</p>
+			  <p><strong>Description</strong>
+			  <span class="weather-description capitalize"></span></p>
+			  <p><strong>Humidity</strong>
+			  <span class="weather-humidity"></span></p>
+			  <p><strong>Wind speed</strong>
+			  <span class="weather-wind-speed"></span> <span class="weather-wind-dir"></span></p>
+			  
+			  <p><strong>Sunrise</strong>
+			  <span class="weather-sunrise"></span></p>
+			  <p><strong>Sunset</strong>
+			  <span class="weather-sunset"></span></p>
+		</div>
+		<div class="forecast forecast_3 hide">
+   <div class="forecast-1">
+    <div class="forecast-day">
+     <p class="forecast-day-1"></p>
+     <p class="forecast-date-1"></p>
+    </div>
+    <div class="forecast-data-1">
+     <img src="" class="forecast-icon-1" />
+     <p class="forecast-temperature-1"></p>
+     <p class="forecast-temperature-min-max"><span class="forecast-min-temperature-1"></span>-<span class="forecast-max-temperature-1"></span></p>
+     <br class="clear" />
+     <p class="forecast-description-1 tleft"></p>
+    </div>
+    <br class="clear" />
+   </div>
+   <div class="forecast-2">
+    <div class="forecast-day">
+     <p class="forecast-day-2"></p>
+     <p class="forecast-date-2"></p>
+    </div>
+    <div class="forecast-data-2">
+     <img src="" class="forecast-icon-2" />
+     <p class="forecast-temperature-2"></p>
+     <p class="forecast-temperature-min-max"><span class="forecast-min-temperature-2"></span>-<span class="forecast-max-temperature-2"></span></p>
+     <br class="clear" />
+     <p class="forecast-description-2 tleft"></p>
+    </div>
+    <br class="clear" />
+   </div>
+   <div class="forecast-3">
+    <div class="forecast-day">
+     <p class="forecast-day-3"></p>
+     <p class="forecast-date-3"></p>
+    </div>
+    <div class="forecast-data-3">
+     <img src="" class="forecast-icon-3" />
+     <p class="forecast-temperature-3"></p>
+     <p class="forecast-temperature-min-max"><span class="forecast-min-temperature-3"></span>-<span class="forecast-max-temperature-3"></span></p>
+     <br class="clear" />
+     <p class="forecast-description-3 tleft"></p>
+    </div>
+    <br class="clear" />
+   </div>
+  </div>
+      </div>
+	  
+      <div id="content">
+        <h1>Welcome to Brasov Veterans</h1>
+        <p>Stroll through more than 800 years of living history.</p>
+        <p>Discover stories and legends about places and people of Brasov, learn more about the citadel and Dracula, step on of the narrowest street in Eastern Europe and hike to the White Tower for a great view over the most romantic city in Romania</p>
+        <h2>About Brasov</h2>
+        <p>Facts:</p>
+        <ul>
+          <li>Location: Central Romania (Brasov County)</li>
+          <li>Size: 28.5 sq. miles (74 sq. km)</li>
+          <li>Elevation: 2,133 ft. (650 meters)</li>
+	  <li>Population: 275,000</li>
+	  <li>Inhabited since: 100 BC</li>
+	  <li>First documented: 1234 AD (Corona)</li>
+        </ul>
+      </div>
+    </div>
+	
+
+	
+    <div id="footer">
+	<a href="javascript:history.back(1)">Previous Page</a><br><br><br>
+	
+     <script type="text/javascript">showDate();</script>
+	 
+<br>	Copyright &copy; Teodor banea|Tudor stefancu|
+    </div>
+  </div>
+<script>
+ 
+ $('.weather-temperature').openWeather({
+ key: '637b7686bf4ee49316a9ca5bb79e8bb6',
+ type: 'today',
+ units: 'metric',
+ lang: 'ro',
+ city: 'Brasov,RO',
+ targets : {
+  icon: '.weather-icon',
+  temperature: '.weather-temperature',
+  minTemperature: '.weather-min-temperature',
+  maxTemperature: '.weather-max-temperature',
+  description: '.weather-description',
+  windSpeed: '.weather-wind-speed',
+  windDirection: '.weather-wind-dir',
+  windDirectionDegrees: '.weather-wind-dir-arrow',
+  humidity: '.weather-humidity',
+  weekday : '.weather--day',
+  date: '.weather-date',
+  sunrise: '.weather-sunrise',
+  sunset: '.weather-sunset',
+  place: '.weather-place',
+ },
+ success: function() {
+  $('.weather-wrapper').removeClass('hide').show();
+ }
+});
+$('.forecast_3').openWeather({
+key: '637b7686bf4ee49316a9ca5bb79e8bb6',
+ type: 'forecast',
+ units: 'metric',
+ lang: 'ro',
+ city: 'Brasov,RO',
+ targets : {
+  icon: '.forecast-icon',
+  temperature: '.forecast-temperature',
+  minTemperature: '.forecast-min-temperature',
+  maxTemperature: '.forecast-max-temperature',
+  description: '.forecast-description',
+  windSpeed: '.forecast-wind-speed',
+  windDirection: '.forecast-wind-dir',
+  windDirectionDegrees: '.forecast-wind-dir-arrow',
+  humidity: '.forecast-humidity',
+  weekday : '.forecast--day',
+  date: '.forecast-date',
+  sunrise: '.forecast-sunrise',
+  sunset: '.forecast-sunset',
+  place: '.forecast-place',
+ },
+ success: function() {
+  $('.forecast').removeClass('hide').show();
+ }
+});
+ 
+ </script>
+ 
+</body>
+</html>
